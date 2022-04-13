@@ -104,3 +104,9 @@ const verifyInput = ({ method, url }) => {
   if (typeof url !== "string") throw new Error(ERRORS.INVALID_URL);
 };
 ```
+
+## Screenshot
+
+<div align="center">
+  <img width=700 src ="https://github.com/reactionic127/next.js-nft-marketplace/blob/master/screens/1.png" />
+</div>
