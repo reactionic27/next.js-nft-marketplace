@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "projects": {
+    "components": "libs/components",
+    "nft-marketplace": "apps/nft-marketplace",
+    "nft-marketplace-e2e": "apps/nft-marketplace-e2e"
+  }
+}

@@ -1,0 +1,14 @@
+name: CI
+on: [push]
+
+jobs:
+  lint_and_build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - run: yarn install
+      - run: npx nx build nft-marketplace
+      - run: npx nx lint nft-marketplace
+      - run: npx nx lint components
